@@ -56,9 +56,13 @@ footer {
 
 .cards-results {
     background-color: pink;
-    padding: 15px;
+    padding: 5px;
     margin: 5px;
     border-radius: 6px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #ffffff;
 }
 
 .action-btn {
