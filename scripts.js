@@ -15,12 +15,20 @@ const numFim = document.querySelector("#numFim")
 
 
 function verifica() {
-    let numRand = Math.floor(Math.random()*10)
+    let min = parseInt(numInicio.value)
+    let max = parseInt(numFim.value)
+
+    let numRand = Math.floor(Math.random()*(max-min+1))+min
 
     console.log(numRand)
 
     cardRes01.innerHTML = numRand
 }
+
+// const min = 1; // Valor mínimo
+// const max = 10; // Vlor máximo
+// const numeroAleatorio = Math.floor(Math.random() * (max - min + 1)) + min;
+// console.log(numeroAleatorio); // Exibirá um número aleatório entre 1 e 10 (inclusive)
 
 
 btnCard01.addEventListener("click", verifica)
