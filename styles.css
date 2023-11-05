@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+main {
+    margin: 5px;
+    padding: 15px;
+}
+
+header {
+    margin: 5px;
+    padding: 15px;
+    background-color: #bcbcea;
+    border-radius: 6px;
+}
+
+footer {
+    margin: 5px;
+    padding: 15px;
+    font-size: 8px;
+    vertical-align: bottom;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    background-color: #cdc7c7b1;
+    padding: 35px;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+.cpTextos {
+    border: 0;
+    border-radius: 6px;
+    height: 30px;
+    width: 10rem;
+    margin: 5px;
+    box-shadow: 1px 1px 3px;
+}
+
+.card-cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-results {
+    background-color: pink;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+.action-btn {
+    margin: 5px;
+    padding: 10px;
+}
